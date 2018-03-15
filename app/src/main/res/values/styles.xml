@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lightblue300</item>
+        <item name="colorPrimaryDark">@color/lightblue400</item>
+        <item name="colorAccent">@color/green200</item>
+    </style>
+
+    <style name="main_menu_tab">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/grey200</item>
+    </style>
+
+    <dimen name="sp_14">14sp</dimen>
+</resources>

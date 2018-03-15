@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Elasor</string>
+
+    <string name="httpException">网络服务异常</string>
+
+    <string name="connectException">服务器连接异常</string>
+
+    <string name="interruptedException">服务中断</string>
+
+    <string name="jsonException">JSON解析异常</string>
+
+    <string name="unknowException">未知异常</string>
+</resources>

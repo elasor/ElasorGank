@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_image_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightblue300"
+    android:fitsSystemWindows="true"
+    tools:context="com.elasor.elasorgank.ui.content.image.ImageContentActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:background="@color/lightblue300">
+
+        <ImageView
+            android:id="@+id/iv_content_back"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:scaleType="center"
+            android:src="@drawable/main_content_menu_back"
+            android:contentDescription="@string/app_name"
+            android:clickable="true"
+            android:background="@drawable/selector_menu_back"/>
+
+        <ImageView
+            android:id="@+id/iv_content_more"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:layout_alignParentRight="true"
+            android:scaleType="center"
+            android:src="@drawable/main_content_menu_more"
+            android:contentDescription="@string/app_name"
+            android:clickable="true"
+            android:background="@drawable/selector_menu_back"/>
+
+        <ImageView
+            android:id="@+id/iv_content_download"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:layout_toLeftOf="@id/iv_content_more"
+            android:scaleType="center"
+            android:src="@drawable/main_content_menu_download"
+            android:contentDescription="@string/app_name"
+            android:clickable="true"
+            android:background="@drawable/selector_menu_back"/>
+
+        <TextView
+            android:id="@+id/tv_content_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/iv_content_download"
+            android:layout_toRightOf="@id/iv_content_back"
+            android:gravity="start|center_vertical"
+            android:paddingLeft="@dimen/dp_8"
+            android:paddingRight="@dimen/dp_8"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_16"
+            android:singleLine="true"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_content_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:background="@color/white"
+        android:contentDescription="@string/app_name"/>
+
+</LinearLayout>

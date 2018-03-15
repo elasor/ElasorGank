@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--PDA-->
+    <style name="elasor_dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/elasor_dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowEnterAnimation">@anim/anim_loading_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_loading_exit</item>
+    </style>
+
+    <!--手机-->
+    <style name="elasor_loading" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/elasor_loading</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowEnterAnimation">@anim/anim_loading_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_loading_exit</item>
+    </style>
+
+</resources>
